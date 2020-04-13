@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9b9cb6-cf4c-4165-b163-ddeaf0c11a63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JUnit4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Referenced_Libraries.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Steps/RunCuke.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CucumberBasics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CucumberBasics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CucumberBasics/Login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/Steps/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Steps/LoginStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataDrivenFramework" beforeDir="false" afterPath="$PROJECT_DIR$/../DataDrivenFramework" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GridDocker" beforeDir="false" afterPath="$PROJECT_DIR$/../GridDocker" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PageObjectModelBasics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModelBasics/.idea/workspace.xml" afterDir="false" />
@@ -32,29 +36,33 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="feature" value="2" />
+          <entry key="java" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Cucumber" value="2" />
+          <entry key="JAVA" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="feature" value="350" />
+          <entry key="java" value="210" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="350" />
+          <entry key="JAVA" value="210" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Login.feature">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Steps/Login.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
               <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
@@ -62,7 +70,38 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Steps/LoginStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Steps/RunCuke.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,6 +110,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Login.feature" />
+        <option value="$PROJECT_DIR$/src/Steps/LoginStep.java" />
+        <option value="$PROJECT_DIR$/src/Steps/RunCuke.java" />
       </list>
     </option>
   </component>
@@ -95,7 +136,23 @@
             </path>
             <path>
               <item name="CucumberBasics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberBasics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CucumberBasics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberBasics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CucumberBasics" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="CucumberBasics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="JUnit4" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -107,10 +164,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586797669322" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../_PROGRAMMING/Udemy/SeleniumArchitect/Abschnitt8/jars/cucumber-html-0.2.3.jar!/" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586801079491" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/hamcrest-core-1.3.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -126,11 +186,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RunCuke">
     <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/Login.feature" />
-      <option name="GLUE" value="classpath:" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/Steps/Login.feature" />
+      <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="CucumberBasics" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
@@ -145,6 +205,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RunCuke" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="CucumberBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Steps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="Steps.RunCuke" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.RunCuke" />
+      <item itemvalue="Cucumber java.Feature: Login" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber java.Feature: Login" />
@@ -164,9 +244,40 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Feature__Login - 2020.04.13 at 20h 00m 07s.xml">
+      <configuration name="Feature: Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Login - 2020.04.13 at 20h 00m 23s.xml">
+      <configuration name="Feature: Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RunCuke - 2020.04.13 at 20h 00m 35s.xml">
+      <configuration name="RunCuke" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunCuke - 2020.04.13 at 20h 01m 00s.xml">
+      <configuration name="RunCuke" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Feature__Login - 2020.04.13 at 20h 01m 19s.xml">
+      <configuration name="Feature: Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Login_(1) - 2020.04.13 at 20h 01m 45s.xml">
+      <configuration name="Feature: Login (1)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Login - 2020.04.13 at 20h 02m 21s.xml">
+      <configuration name="Feature: Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RunCuke - 2020.04.13 at 20h 02m 35s.xml">
+      <configuration name="RunCuke" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunCuke - 2020.04.13 at 20h 02m 51s.xml">
+      <configuration name="RunCuke" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunCuke - 2020.04.13 at 20h 04m 06s.xml">
+      <configuration name="RunCuke" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -178,9 +289,10 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43275487" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -199,10 +311,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Login.feature">
+    <entry file="file://$PROJECT_DIR$/src/Steps/Login.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Steps/LoginStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Steps/RunCuke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -263,6 +395,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -282,6 +415,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>JUnit4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
