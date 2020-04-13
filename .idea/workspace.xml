@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9b9cb6-cf4c-4165-b163-ddeaf0c11a63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/JUnit4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Referenced_Libraries.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Steps/RunCuke.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CucumberBasics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CucumberBasics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CucumberBasics/Login.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/Steps/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Steps/LoginStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CucumberBasics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/CucumberBasics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cucumber-core-1.2.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/cucumber_jars/cucumber-core-1.2.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cucumber-html-0.2.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/cucumber_jars/cucumber-html-0.2.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cucumber-java-1.2.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/cucumber_jars/cucumber-java-1.2.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cucumber-junit-1.2.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/cucumber_jars/cucumber-junit-1.2.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cucumber-jvm-deps-1.0.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/cucumber_jars/cucumber-jvm-deps-1.0.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gherkin-2.12.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/cucumber_jars/gherkin-2.12.2.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataDrivenFramework" beforeDir="false" afterPath="$PROJECT_DIR$/../DataDrivenFramework" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GridDocker" beforeDir="false" afterPath="$PROJECT_DIR$/../GridDocker" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PageObjectModelBasics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModelBasics/.idea/workspace.xml" afterDir="false" />
@@ -143,7 +143,7 @@
               <item name="CucumberBasics" type="b2602c69:ProjectViewProjectNode" />
               <item name="CucumberBasics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Steps" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber_jars" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CucumberBasics" type="b2602c69:ProjectViewProjectNode" />
@@ -167,12 +167,22 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586801079491" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586801531249" />
     <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/hamcrest-core-1.3.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mark\Documents\IntelliJ\Udemy\Architect\CucumberBasics\src\junit_jars" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mark\Documents\IntelliJ\Udemy\Architect\CucumberBasics\src" />
+      <recent name="C:\Users\Mark\Documents\IntelliJ\Udemy\Architect\CucumberBasics\src\cucumber_jars" />
+      <recent name="C:\Users\Mark\Documents\IntelliJ\Udemy\Architect\CucumberBasics\src\Steps" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -245,9 +255,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__Login - 2020.04.13 at 20h 00m 07s.xml">
-      <configuration name="Feature: Login" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__Login - 2020.04.13 at 20h 00m 23s.xml">
       <configuration name="Feature: Login" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -275,6 +282,9 @@
     <history-entry file="RunCuke - 2020.04.13 at 20h 04m 06s.xml">
       <configuration name="RunCuke" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RunCuke - 2020.04.13 at 20h 04m 44s.xml">
+      <configuration name="RunCuke" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -287,12 +297,12 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43275487" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43275487" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
