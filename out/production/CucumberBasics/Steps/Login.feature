@@ -11,7 +11,7 @@ Scenario Outline: : In order to verify login to facebook
   And user entered "<password>" password
   Then user "<loginType>" successfully logged in
 
-  Examples:
-    | username | password | loginType |
-    | valid    | valid    | should    |
-    | invalid  | invalid  | shouldnot |
+Examples:
+  | username | password | loginType |
+  | valid    | valid    | should    |
+  | invalid  | invalid  | shouldnot |
