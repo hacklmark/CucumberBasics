@@ -4,16 +4,14 @@ Feature: Login
   As a user
   I want to enter correct username and password
 
-Scenario: In order to verify login to facebook
+Scenario Outline: : In order to verify login to facebook
   Given user navigates to facebook website
   When user validates the homepage title
-  Then user entered valid username
-  And user entered valid password
-  Then user shouldbe successfully logged in
+  Then user entered "<username>" username
+  And user entered "<password>" password
+  Then user "<loginType>" successfully logged in
 
-Scenario: In order to verify login to facebook as Invalid user
-  Given user navigates to facebook website
-  When user validates the homepage title
-  Then user entered invalid username
-  And user entered invalid password
-  Then user shouldnot successfully logged in
+  Examples:
+    | username | password | loginType |
+    | valid    | valid    | should    |
+    | invalid  | invalid  | shouldnot |

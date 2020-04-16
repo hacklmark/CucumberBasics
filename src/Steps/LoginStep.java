@@ -18,19 +18,19 @@ public class LoginStep {
         System.out.println("@When -- User validates the home page title");
     }
 
-    @Then("^user entered ([a-zA-Z]{1,}) username$")
+    @Then("^user entered \"([^\"]*)\" username$")
     public void user_entered_valid_username(String username) throws Throwable {
 
         System.out.println("@Then -- User entered "+username+" username");
     }
 
-    @Then("^user entered ([a-zA-Z]{1,}) password$")
+    @Then("^user entered \"([^\"]*)\" password$")
     public void user_entered_valid_password(String password) throws Throwable {
 
         System.out.println("@And -- User entered "+password+" password");
     }
 
-    @Then("^user ([a-zA-Z]{1,}) successfully logged in$")
+    @Then("^user \"([^\"]*)\" successfully logged in$")
     public void user_shouldbe_successfully_logged_in(String validateLogin) throws Throwable {
 
         System.out.println("@Then -- User "+validateLogin+" successfully logged in");
