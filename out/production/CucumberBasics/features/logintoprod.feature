@@ -19,4 +19,3 @@ Scenario: In order to verify login to facebook production
   And user entered "invalid" password
   And user validates the captcha image
   Then user "shouldnot" successfully logged in
-  
