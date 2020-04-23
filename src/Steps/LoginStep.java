@@ -1,8 +1,12 @@
 package Steps;
 
+import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+
+import java.util.List;
+import java.util.Map;
 
 public class LoginStep {
 
@@ -36,4 +40,18 @@ public class LoginStep {
         System.out.println("@Then -- User "+validateLogin+" successfully logged in");
     }
 
+    //Solution with List
+/*    @Then("^user select the age category$")
+    public void user_select_the_age_category(List<String> list) throws Throwable {
+
+        System.out.println("@And - user select the age category: " + list.get(1));
+    }*/
+
+    //Solution with DataTable
+    @Then("^user select the age category$")
+    public void user_select_the_age_category(DataTable table) throws Throwable {
+
+        List<Map<String,String>> data = table.asMaps(String.class,String.class);
+        System.out.println("@And - user select the age category: " + data.get(1).get("Age")+" ---Selected location as : "+data.get(0).get("location"));
+    }
 }
