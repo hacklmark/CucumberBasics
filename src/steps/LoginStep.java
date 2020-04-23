@@ -1,6 +1,8 @@
 package steps;
 
 import cucumber.api.DataTable;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -9,6 +11,30 @@ import java.util.List;
 import java.util.Map;
 
 public class LoginStep {
+
+    @Before
+    public void setUp(){
+
+        System.out.println("Launch the browser");
+    }
+
+    @After
+    public void tearDown(){
+
+        System.out.println("driver.quit()");
+    }
+
+    @Before("@prodnew")
+    public void setUpProd(){
+
+        System.out.println("Launch the browser for Production");
+    }
+
+    @After("@prodnew")
+    public void tearDownProd(){
+
+        System.out.println("driver.quit() for Production");
+    }
 
     @Given("^user navigates to facebook website$")
     public void user_navigates_to_facebook_website() throws Throwable {
